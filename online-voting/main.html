@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vote Now!</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <h1><i class="fas fa-poll"></i> Vote for Your Favorite 😉</h1>
+
+      <div class="options">
+        <button onclick="vote('Option A')"> <i class="fas fa-star">Joel</i>  </button>
+        <button onclick="vote('Option B')"> <i class="fas fa-heart">Ella</i></button>
+        <button onclick="vote('Option C')"><i class="fas fa-fire"> Elsie</i></button>
+      </div>
+
+      <div id="thank-you" class="thank-you">Thanks for voting!</div>
+
+      <div class="results">
+        <h2><i class="fas fa-chart-bar"></i> Live Results</h2>
+        <div id="results-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
